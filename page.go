@@ -8,8 +8,8 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/yields/ant/internal/scan"
-	"github.com/yields/ant/internal/selectors"
+	"github.com/mishnea/ant/internal/scan"
+	"github.com/mishnea/ant/internal/selectors"
 	"golang.org/x/net/html"
 )
 

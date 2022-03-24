@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/yields/ant"
+	"github.com/mishnea/ant"
 )
 
 func main() {

@@ -7,8 +7,8 @@ import (
 	"io"
 	"net/url"
 
-	"github.com/yields/ant/internal/normalize"
-	"github.com/yields/ant/internal/robots"
+	"github.com/mishnea/ant/internal/normalize"
+	"github.com/mishnea/ant/internal/robots"
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/sync/semaphore"
 )

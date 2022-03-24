@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/yields/ant"
+	"github.com/mishnea/ant"
 )
 
 type quote struct {

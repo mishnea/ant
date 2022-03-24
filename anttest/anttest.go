@@ -18,7 +18,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/yields/ant"
+	"github.com/mishnea/ant"
 )
 
 // Fetch fetches a page by its URL.

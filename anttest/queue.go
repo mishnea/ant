@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/mishnea/ant"
 	"github.com/stretchr/testify/require"
-	"github.com/yields/ant"
 	"golang.org/x/sync/errgroup"
 )
 

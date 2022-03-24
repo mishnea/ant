@@ -3,8 +3,8 @@ package ant_test
 import (
 	"testing"
 
-	"github.com/yields/ant"
-	"github.com/yields/ant/anttest"
+	"github.com/mishnea/ant"
+	"github.com/mishnea/ant/anttest"
 )
 
 func TestQueue(t *testing.T) {

@@ -1,4 +1,4 @@
-module github.com/yields/ant
+module github.com/mishnea/ant
 
 go 1.14
 

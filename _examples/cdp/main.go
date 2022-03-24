@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/yields/ant"
-	"github.com/yields/ant/antcdp"
+	"github.com/mishnea/ant"
+	"github.com/mishnea/ant/antcdp"
 )
 
 //

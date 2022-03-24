@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/yields/ant"
-	"github.com/yields/ant/antcache"
+	"github.com/mishnea/ant"
+	"github.com/mishnea/ant/antcache"
 )
 
 type quote struct {
