@@ -38,9 +38,15 @@ func Text(n *html.Node) string {
 	for n := n.FirstChild; n != nil; n = n.NextSibling {
 		switch n.Type {
 		case html.TextNode:
-			b.WriteString(n.Data)
+			s := strings.Trim(n.Data, " \n|")
+			b.WriteString(s)
 		case html.ElementNode:
-			b.WriteString(Text(n))
+			switch n.Data {
+			case "br":
+				b.WriteString("\n")
+			default:
+				b.WriteString(Text(n))
+			}
 		}
 	}
 
